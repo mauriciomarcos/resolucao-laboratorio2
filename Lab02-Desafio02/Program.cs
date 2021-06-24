@@ -12,7 +12,7 @@ namespace Lab02_Desafio02
         {
             var animais = CriarAnimais();
             ComputarAnimais(animais);
-            ExibirTotais();
+            ExibirTotais2();
         }
 
         private static List<Animal> CriarAnimais()
@@ -47,6 +47,9 @@ namespace Lab02_Desafio02
                     case "PEIXE":
                         totalPeixe++;
                         break;
+                    case "LEÃO":
+                        totalPeixe++;
+                        break;
                     default:
                         totalDesconhecido++;
                         break;
@@ -54,7 +57,7 @@ namespace Lab02_Desafio02
             }
         }
 
-        private static void ExibirTotais()
+        private static void ExibirTotais2()
         {
             Console.WriteLine($"Total de Cahorros: { totalCachorro }");
             Console.WriteLine($"Total de Gatos: { totalGato }");
