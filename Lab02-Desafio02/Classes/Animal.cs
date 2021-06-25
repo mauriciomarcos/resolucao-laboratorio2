@@ -13,7 +13,7 @@ namespace Lab02_Desafio02.Classes
             Tipo = tipo;
         }
 
-        //public string Nome { get; private set; }
+        public string Nome { get; private set; }
 
         public string Tipo 
         {
