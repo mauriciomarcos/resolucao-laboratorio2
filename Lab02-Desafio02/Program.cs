@@ -27,8 +27,7 @@ namespace Lab02_Desafio02
                 new Animal("Panda", "Urso".ToUpper()),
                 new Animal("Panda2", "Urso".ToUpper()),
                 new Animal("Nemo", "Peixe".ToUpper()),
-                new Animal("Nemo1", "Peixe".ToUpper()),
-                new Animal("Nemo2", "Peixe".ToUpper())
+                new Animal("Nemo1", "Peixe".ToUpper())
             };
         }
 
@@ -61,7 +60,6 @@ namespace Lab02_Desafio02
         {
             Console.WriteLine($"Total de Cahorros: { totalCachorro }");
             Console.WriteLine($"Total de Gatos: { totalGato }");
-            Console.WriteLine($"Total de Peixes: { totalPeixe }");
             Console.WriteLine($"Total de Animais Desconhecidos: { totalDesconhecido }");
         }
     }
