@@ -4,7 +4,7 @@ namespace Lab02_Desafio02.Classes
 {
     public class Animal
     {
-        private string[] tiposValidos = {"CACHORRO", "GATO", "PEIXE", "ELEFANTE"};
+        private string[] tiposValidos = {"CACHORRO", "GATO", "PEIXE", "ELEFANTE", "LOBO"};
         private string tipo;
 
         public Animal(string nome, string tipo)
